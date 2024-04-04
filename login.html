@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form | Fresh Cart</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+</head>
+<style>
+  body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('css/img/Background1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+  max-width: 200px; /* Adjust the max-width to your preference */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centers the logo horizontally */
+}
+
+</style>
+<body>
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="text-center">Login</h1>
+
+        <img src="css/img/logo.jpg" alt="" class="logo"> 
+        <form action="Products.html" method="post">
+          <div class="form-group">
+            <label>Email</label>
+            <div class="input-group">
+              <input type="text" class="form-control" name="email" placeholder="Email" required>
+              <div class="input-group-append">
+                <span class="input-group-text"><i class='bx bxs-user'></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <div class="input-group">
+              <input type="password" class="form-control" name="password" placeholder="Password" required>
+              <div class="input-group-append">
+                <span class="input-group-text"><i class='bx bxs-lock-alt'></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="rememberMe">
+            <label class="form-check-label" for="rememberMe">Remember Me</label>
+            <a href="#" class="ml-auto">Forgot Password</a>
+          </div>
+          <button type="submit" name="submit" class="btn btn-primary btn-block">Login</button>
+        </form>
+        <div class="text-center mt-3">
+          <p>Don't have an account? <a href="register.html">Register</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.container, .vegetables-container{
+    margin:50px 50px 50px 5%;
+    width:90%;
+    text-align:center;
+}
+.header {
+    background:rgba(2, 95, 75, 0.685);
+    padding: 10px; 
+    color:white;
+    text-align: center;
+}
+.categories, .items{
+    width:max-content;
+    margin:25px;
+    border:1px solid #184d47;
+    border-radius:0 0 50px 50px;
+    display:inline-block;
+}
+
+.categories:hover, .items:hover{
+    box-shadow:0 0 10px 3px #184d47;
+}
+
+.item-image{
+    height:200px;
+    width:200px;
+    border-radius:0 0 50px 50px;
+    padding:10px;
+}
+
+.image-title{
+    text-align:center;
+    padding:10px;
+    font-weight:bold;
+}
+
+a{
+    text-decoration:none;
+}
+
+.title{
+    padding:50px;
+    font-size:50px;
+    font-weight:bold;
+    letter-spacing:10px;
+    color:white;
+    background:rgba(2, 95, 75, 0.685);
+}
+
+.items{
+    padding:50;
+    font-size:20;
+    font-weight:bold;
+    color:white;
+    display:inline-block;
+    margin:20px;
+    max-width:20%;
+    background:linear-gradient(120deg, #16817a 20%, #cee397 50%, #16817a 80%);
+
+}
+
+.images{
+    display:inline-block;
+}
+
+.item-image-size{
+    height:200px;
+    margin:25px;;
+    width:250px;
+    padding:5px;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+
+.item-image-size:hover {
+    box-shadow: 0 0 10px 3px #184d47;
+}
